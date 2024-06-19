@@ -1,4 +1,4 @@
-body{
+html{
     background-color: rgb(8, 8, 34);
     color: limegreen;
     font-family: monospace;
@@ -53,4 +53,7 @@ article{
     display: inline-block;
    
     
+}
+.progress{
+    font-size: 60px;
 }

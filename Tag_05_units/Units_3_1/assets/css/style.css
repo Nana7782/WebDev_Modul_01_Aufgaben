@@ -1,0 +1,43 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+@font-face {
+    font-family: Bebas;
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+
+html{
+    font-size: 14px;
+    background-image: url(../img/luke-stackpoole-x2qSNIEZuEE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+main{
+    padding: 5%;
+}
+
+h1, h2{
+    font-family: "Bebas";
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem #ecb582;
+    padding: 0 15%;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+article{
+    padding: 2%;
+    margin: 100px;
+    border-radius: 5rem;
+    background-color: rgb(186, 168, 168, 0.5)
+
+}

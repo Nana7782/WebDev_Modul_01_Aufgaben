@@ -1,0 +1,47 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+.pets{
+    border: 1px solid black;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 1.2em;
+}
+
+li{ 
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.dog li::before{
+    content: "🐶";
+}
+
+.cat li::before{
+    content: "🐱";
+}
+
+.parrot li::before{
+    content: "🦜";
+}
+
+.snake li::before{
+    content: "🐍";
+}
+
+.lizzard li::before{
+    content: "🦎";
+}

@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "Grey";
+    src: url(../fonts/GreyQo-Regular.ttf);
+}
+
+html{
+    background-image: url(../img/jakub-dziubak-XtUd5SiX464-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    font-family: "Grey";
+    font-size: 8rem;
+    text-align: center;
+    margin: 0.5em;
+}
+
+p{
+    font-family: monospace;
+    font-size: 25em;
+    text-align: center;
+    padding-top: 0.6em;
+    color: rgba(74, 41, 41, 0.6);
+}
