@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Git Cheatsheet</title>
+</head>
+<body>
+    <main>
+        <h1>Git Cheatsheet</h1>
+
+        <h2>Git und ich werden Freunde, Git und ich werden Freunde, Git und ich werden Freunde... vielleicht</h2>
+
+        <section id="container">
+        <div class="repro_1">
+                <p>Erst mal ein Repository erstellen</p>
+
+            <ol>
+                <li>Repository in Github erstellen & bennen</li>
+                <ul>
+                    <li> (den Link zum Repo schon mal kopieren) </li>
+                </ul>
+                <li>Ordner für Projekt in VS Code öffnen</li>
+                <li>mit Command + J das Terminal öffnen und Befehle eingeben:</li>
+                <ul>
+                    <li>git init</li>
+                    <li>git add . </li>
+                    <li>git commit -m "hier Kommentar zum Projekt eingeben"</li>
+                    <li>git branch -m main</li>
+                    <li>git remote add origin "hier den zuvor kopierten Link einfügen"</li>
+                    <li>git push -u origin main</li>
+                </ul>
+                <li>Freuen, dass sich das neue Projekt mit dem hoffentlich richtigen Ordner verküpft hat!</li>
+            </ol>
+        </div>
+
+        <div class="repro_2">
+            <p>Änderungen an bestehenden Repos - oder: wie ärgert man Nana^^</p>
+            <ul>
+                <li>Hat man eine Datei geändert, oder eine neue erstellt, muss man:</li>
+                    <ol>
+                        <li>git status  <-- spuckt die Dateien/Ordner aus die geändert wurden u. man kann im nächsten Schritt einfach den Namen kopieren</li>
+                        <li>git add "file" <-- für jede Datei einmal eingeben</li>
+                        <li>git commit -m "neuer Kommentar zb Aktualisierung etc."</li>
+                        <li>push -u origin main  <-- Veröffentlicht den ganzen Kladderadatsch</li>
+                    </ol>
+                <li></li>
+                <li>Bestimmt fehlt noch was, das ergänzt werden muss</li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+        <section>
+            <article>
+                <h3>Ein Projekt klonen</h3>
+
+                <ol>
+                    <li>Einen lokalen Ordner für das Projekt erstellen</li>
+                    <li>Ordner in VS Code öffnen</li>
+                    <li>GitHub -> Repo -> Link kopieren</li>
+                    <li>Terminal in VS Code öffnen mit command + J</li>
+                        <ul>
+                            <li>git clone "link" . <-- Leerzeichen+. erzeugt keinen Unterordner</li>
+                        </ul>
+                        <li>Fertig!</li>
+                </ol>
+            </article>
+
+            <article>
+                <h3>Ein geklontes Projekt aktualisieren</h3>
+
+                <ol>
+                    <li>Terminal in VS Code öffnen mit command + J</li>
+                        <ul>
+                            <li>git pull origin main</li>
+                        </ul>
+                        <li>Fertig!</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

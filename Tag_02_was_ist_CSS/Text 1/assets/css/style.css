@@ -1,0 +1,34 @@
+h1 {
+    font-family: Tahoma;
+    font-size: 48px;
+    color: white;
+    text-shadow: black 2px 5px;
+    background-color: darkgray;
+}
+
+h2 {
+    text-shadow: darkgrey 2px 2px;
+}
+
+
+P:first-of-type {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 15%;
+    word-spacing: 15px;
+}
+
+p:nth-of-type(2) {
+    word-spacing: 5px;
+    text-indent: 50px;
+}
+
+p:nth-of-type(3) {
+    background-color: darkgrey;
+    line-height: 10px;
+}
+
+p:nth-of-type(4) {
+    background-color: black;
+    color: white;
+    line-height: 20px;
+}

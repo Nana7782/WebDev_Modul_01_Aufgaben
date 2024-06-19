@@ -1,0 +1,55 @@
+h3:first-letter{
+    font-size: 200%;
+    color: #483d8b;
+}
+h3:hover::first-letter{
+    color: aqua;
+}
+
+#list__one::first-letter{
+    font-size: 200%;
+    color: aqua;
+    text-decoration: overline;
+}
+#list__two::first-letter{
+    font-size: 200%;
+    color: red;
+    text-decoration: underline;
+}
+#list__three::first-letter{
+    font-size: 200%;
+    color: lime;
+    text-decoration: line-through;
+}
+
+.text-simple{
+    text-align: right;
+    color: darkgrey;
+}
+.text-big{
+    font-size: 20px;
+}
+.text-small{
+    font-size: 10px;
+}
+.text-big::first-letter{
+    font-size: 200%;
+    color: red;
+}
+.text-big::first-line{
+    color: #32cd32;
+}
+.text-small::first-letter{
+    font-size: 200%;
+    color: red;
+}
+.text-small::first-line{
+    color: #32cd32;
+}
+
+.text-big:hover::first-line{
+    color: blue;
+}
+.text-small:hover::first-line{
+    color: blue;
+}

@@ -1,0 +1,33 @@
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: white;
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+    margin: 20px;
+}
+
+li {
+    font-size: 20px;
+    color: #777;
+}
+
+.firstList {
+    text-decoration: overline;
+}
+
+.secondList {
+    text-decoration: line-through;
+    text-indent: 150px;
+}
+
+.thirdList {
+    text-decoration: underline;
+    text-indent: 300px;
+}

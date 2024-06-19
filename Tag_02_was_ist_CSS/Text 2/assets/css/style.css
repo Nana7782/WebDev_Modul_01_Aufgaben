@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "ChelseaMarket";
+    src: url(../fonts/ChelseaMarket-Regular.ttf);
+}
+@font-face {
+    font-family: "Fredoka";
+    src: url(../fonts/Fredoka-VariableFont_wdth\,wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url(../fonts/Pacifico-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: "PressStar";
+    src: url(../fonts/PressStart2P-Regular.ttf) format(truetype),
+    local(PressStart2P-Regular)
+}
+
+
+h1 {
+    font-family: PressStar;
+    font-size: 40px;
+    background-color: rgb(4, 238, 4);
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-family: Pacifico;
+    font-size: 20px;
+}
+p em {
+    font-family: Fredoka;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: red 0 -2px;
+}
+
+p strong {
+    font-family: PressStar;
+    font-size: 6px;
+}
+
+a {
+    font-family: Fredoka;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}

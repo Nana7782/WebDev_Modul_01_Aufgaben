@@ -1,0 +1,67 @@
+
+h1::first-letter{
+    font-size: 3em;
+    color: #00796B;
+}
+h1:hover::first-letter{
+    color: #4FC3F7;
+}
+
+ul{
+    list-style: none;
+}
+
+#list__one, #list__two{
+    text-decoration: line-through;
+}
+#list__three, #list__four{
+    background-color: #4FC3F7;
+}
+#list__five, #list__six{
+    text-decoration: underline;
+}
+#list__one::before{
+    content: url(../img/check.png);
+}
+#list__one::after{
+    content: url(../img/gym.png);
+    padding: 0 5px;
+}
+
+#list__two::before{
+    content: url(../img/check.png);
+}
+#list__two::after{
+    content: url(../img/bill.png);
+    padding: 0 5px;
+}
+
+#list__three::before{
+    content: url(../img/doing.png);
+}
+#list__two::after{
+    content: url(../img/dance.png);
+    padding: 0 5px;
+}
+#list__four::before{
+    content: url(../img/doing.png);
+}
+#list__four::after{
+    content: url(../img/eat.png);
+    padding: 0 5px;
+}
+
+#list__five::before{
+    content: url(../img/no.png);
+}
+#list__five::after{
+    content: url(../img/book.png);
+    padding: 0 5px;
+}
+#list__six::before{
+    content: url(../img/no.png);
+}
+#list__six::after{
+    content: url(../img/organize.png);
+    padding: 0 5px;
+}

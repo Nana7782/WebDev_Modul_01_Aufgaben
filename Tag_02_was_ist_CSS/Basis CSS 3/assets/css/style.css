@@ -1,0 +1,33 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+header{
+    background-color: lightblue;
+    
+}
+
+header nav ul a{
+    display: block;
+    margin: 5px;    
+}
+
+h1 {
+    font-size: 20px;
+}
+
+section article a {
+    display: block;
+    color: magenta;
+}
+
+section article p {
+    font-weight: bold;
+}
+
+section article p span {
+    color: rgb(114, 116, 192);
+}
