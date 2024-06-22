@@ -1,0 +1,89 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5vh 10vw;
+}
+fieldset{
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(71, 108, 88);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+/* ****** NAV ****** */
+#nav{
+    display: inline;
+}
+#nav input[type="button"]{
+    display: inline;
+    width: 135px;
+    height: 50px;
+    font-size: 15px;
+}
+#inactive{
+    background-color: rgb(36, 57, 46);
+    color: darkgrey;
+}
+
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+/* ****** CONTENT LOGIN ***** */
+
+.email input, .password input{
+    width: 280px;
+    height: 30px;
+    padding: 3px;
+    margin-bottom: 5px;
+    background-color: rgb(36, 57, 46);
+    border-radius: 5px;
+}
+
+.forgot a{
+    color: greenyellow;
+    margin-left: 200px;
+}
+
+input[type="button"]{
+    width: 280px;
+    padding: 5px;
+    background-color: rgb(117, 174, 144);
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+/* ****** CONTENT SINUP ****** */
+
+
+.name div{
+    display: inline;
+}
+
+.name input{
+    width: 138px;
+    height: 30px;
+    padding: 3px;
+    margin-bottom: 5px;
+    background-color: rgb(36, 57, 46);
+    border-radius: 5px;
+}

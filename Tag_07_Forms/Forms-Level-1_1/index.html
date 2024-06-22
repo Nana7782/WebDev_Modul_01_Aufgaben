@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Forms-Level-1_1</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+
+            <section class="text">
+             
+                    <label for="text">Name</label>
+                
+               
+                    <input type="text" name="Vorname" required placeholder="Vorname">
+               
+                
+                    <input type="text" name="Nachname" required placeholder="Nachname">
+                
+            </section>
+
+            <section class="mail">
+                <div>
+                    <label for="mail">Email</label>
+                </div>
+                <div>
+                    <input type="email" required>
+
+                </div>
+            </section>
+
+            <section class="theme">
+                <div>
+                    <label for="select">Thema</label>
+                </div>
+                <div>
+                    <select name="" id="">
+                        <option value="GN">General</option>
+                        <option value="ADV">Advertise</option>
+                        <option value="PS">Partnership</option>
+                    </select>
+                </div>
+            </section>
+
+
+        <!-- ? Hab nicht rausgefunden, warum sich meine textarea nicht vergrößern lässt, oder warum der Cursor für die Texteingabe in der Mitte des Felds auftaucht :(  -->
+            <section class="message">
+                <label for="message">Nachricht</label>
+                <input type="textarea" name="message" id="message" required rows="6" cols="50">
+            </section>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

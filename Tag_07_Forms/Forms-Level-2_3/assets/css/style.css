@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5vh 5vw;
+}
+
+fieldset{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+legend{
+    font-size: 1.5rem;
+}
+
+.name div, .surname div, .mail div, .radio div, .picture div, .country div, .lang div, .foa div{
+    display: inline-block;
+    width: 8rem;
+}
+
+/* .lang div label{
+    line-height: 20px;
+    height: 20px;
+    padding-bottom: 10px;
+    
+} */
+.foa div:nth-of-type(2){
+    width: 20rem;
+}
+.foa div:nth-of-type(2) label{
+   margin-right: 5px;
+}
+
+input[type="submit"], input[type="reset"]{
+    padding: 5px
+}
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Forms-Level-2_3</title>
+</head>
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>Register form</legend>
+
+            <section class="name">
+                <div>
+                    <label for="name">Name</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Name">
+                </div>
+            </section>
+
+            <section class="surname">
+                <div>
+                    <label for="sur">Surname</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Surname">
+                </div>
+            </section>
+
+            <section class="mail">
+                <div>
+                    <label for="mail">Email</label>
+                </div>
+                <div>
+                    <input type="email" placeholder="Email">
+                </div>
+            </section>
+
+            <section class="radio">
+                <div>
+                    <label for="radio">Gender</label>
+                </div>
+                <div>
+                    <label for="radioMale">Male</label>
+                    <input type="radio" name="gender" id="radioMale">
+                    <label for="radioFemale">Female</label>
+                    <input type="radio" name="gender" id="radioFemale">
+                </div>
+            </section>
+
+            <section class="picture">
+                <div>
+                    <label for="file">Picture</label>
+                </div>
+                <div>
+                    <input type="file" id="file">
+                </div>
+            </section>
+
+            <section class="country">
+                <div>
+                    <label for="select">Country</label>
+                </div>
+                <div>
+                    <select name="" id="">
+                        <option value="GER">Germany</option>
+                        <option value="FR">France</option>
+                        <option value="US">USA</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="lang">
+                <div>
+                    <label for="selectMulti">Prefered languages</label>
+                </div>
+                
+                    <select name="menu[]" multiple="multiple" size="4">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JS">JS</option>
+                        <option value="React">React</option>
+                    </select>
+                    <label for="Menu">(To choose more than one use cmd key)</label>
+                
+            </section>
+
+            <section class="foa">
+                <div>
+                    <label for="checkbox">Field of activity</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkboxIt">
+                    <label for="checkboxIt">IT</label>
+                    <input type="checkbox" id="checkboxDes">
+                    <label for="checkboxIt">Design</label>
+                    <input type="checkbox" id="checkboxOther">
+                    <label for="checkboxIt">Other</label>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Cancel">
+                </div>
+            </section>
+
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
