@@ -1,0 +1,274 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Raleway";
+    font-size: 62.5%;
+}
+
+header{
+    height: 77px;
+    width: 1512px;
+    font-family: "Raleway";
+    /* padding: 10em 20em ; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    position: fixed;
+}
+
+body{
+    width: 1512px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1.5rem;
+}
+
+
+
+/* *********** PARALLAX ALLGEMEIN ************ */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding: 10px 186px 11px 186px;
+}
+
+.logo{
+    color: #666;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 52px;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 496px;
+    height: 55px;
+}
+
+a{
+    color: #4C4C4C;
+    font-family: "Raleway";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 53px; /* 407.692% */
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+ul li a:hover{
+    color: #337ab7;
+}
+
+
+/* *********** PARALLAX ************ */
+
+.parallax {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF ;
+}
+
+.parallax h2{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; 
+    margin-bottom: 25px;
+}
+
+.parallax p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 36px;
+}
+
+button{
+    display: inline-flex;
+    align-items: flex-start;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+button.btn_blue{
+    padding: 15px 62px 15px 61px;
+    border: 2px solid #745CF9;
+    background: #745CF9;
+}
+button.btn_blue:hover{
+    background: #5947c0;
+}
+
+button.btn_white{
+    padding: 15px 42px;
+    border: 2px solid#FFF;
+    background: none;
+}
+button.btn_white:hover{
+    color: black;
+    background: white;
+}
+.parallax1 {
+    background-image: url("../img/38e75180597332d03d601c4abfcc1940.jpeg");
+    /* width: 1512px; */
+    height: 1009px;
+}
+
+.parallax2 {
+    background-image: url("../img/fd5b6099f0d97253c0f3372f51facc99.jpeg");
+    /* width: 1512px; */
+    height: 438px;
+}
+.parallax.parallax2 div{
+    padding: 96px 257.031px 96px 256.984px;
+}
+
+
+
+
+/* *********** MAIN SECTIONS ************ */
+
+
+.seo{
+    display: flex;
+    width: 1512px;
+    height: 644.172px;
+    padding: 96px 171px;
+    justify-content: center;
+    align-items: center;
+    gap: 127.5px;
+}
+
+.seo img, .portfolio img{
+    width: 652.5px;
+    height: 452.172px;
+}
+.seo div:nth-of-type(2), .portfolio div:nth-of-type(1){
+    width: 360px;
+    height: 311px;
+}
+.seo div:nth-of-type(2) p, .portfolio div:nth-of-type(1) p, .projects div:nth-of-type(1) p{
+    color: #8C979E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+h3{
+    color: #0E1015;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    padding-bottom: 37px;
+}
+
+.portfolio{
+    display: flex;
+    width: 1512px;
+    height: 644.172px;
+    padding: 96px 171px;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+}
+
+.options{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 171px 0px 171px;
+    background: #F5F5F5;
+}
+
+.options div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 945px;
+    margin-bottom: 15px;
+}
+
+.options img{
+    width: 1170px;
+    height: 831px;
+}
+
+.options p{
+    color: #8C979E;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 36px;
+}
+
+.projects{
+    display: flex;
+    width: 1512px;
+    padding-top: 96px;
+    flex-direction: column;
+    background: #0E1015;
+    color: white;
+}
+.projects div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.projects h3{
+    color: #FFF;
+    line-height: 33px;
+}
+.projects img{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    row-gap: 50px;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    row-gap: 50px;
+}
+
+
+
