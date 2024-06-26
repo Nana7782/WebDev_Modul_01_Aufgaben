@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Raleway";
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 25px;
+    /* position: fixed; */
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    padding-top: 20px;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.seo p, .portfolio p, .small p, .options p{
+    line-height: 3rem;
+}
+
+
+/* **************** */
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav .menu{
+    display: none;
+}
+h1{
+    display: none;
+}
+
+.burger-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.burger {
+    background-color: #3A52BF;
+    height: 3px;
+    width: 15px;
+    margin: 1px;
+    border-radius: 10px;
+  }
+/* ***** CHANGE ***** */
+
+  .change{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/38e75180597332d03d601c4abfcc1940.jpeg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: #fff;
+    text-align: center;
+    /* padding: 0 1rem; */
+  }
+/* ***** BUTTONS ******* */
+  .button{
+    display: flex;
+    flex-direction: column;
+}
+
+.button a{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.button .btn_blue{
+    padding: 15px 60px;
+    border: 2px solid #745CF9;
+    background: #745CF9;
+}
+.button .btn_blue:hover{
+    background: #5947c0;
+}
+
+.button .btn_white{
+    padding: 15px 43px ;
+    border: 2px solid#FFF;
+    background: none;
+}
+.button .btn_white:hover{
+    color: black;
+    background: white;
+}
+
+/* ******** */
+
+/* **** SEO & PORTFOLIO **** */
+
+.seo, .portfolio, .options, .projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seo img, .portfolio img{
+    width: 90vw;
+    margin: 5rem 0;
+}
+
+.seo div:nth-of-type(2){
+    padding: 0 20px;
+}
+
+.seo p{
+    line-height: 3rem;
+}
+
+.seo .button{
+    flex-direction: row;
+}
+
+.portfolio{
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0 30px 0 30px;
+}
+
+.portfolio h2{
+    padding-top: 30px;
+}
+.portfolio .button{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+
+/* **** SMALL **** */
+
+.small{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/fd5b6099f0d97253c0f3372f51facc99.jpeg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.small .button{
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* **** */
+
+/* **** OPTIONS **** */
+
+.options{
+    text-align: center;
+}
+
+.options .button{
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.options img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+/* **** PROJECTS & GALLERY **** */
+.projects{
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding-top: 5rem;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+#gallery img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .change{
+        height: 40vh;
+    }
+
+    .change h2, .small h2{
+        font-size: 6rem;
+        line-height: 6.5rem;
+        padding: 0 5rem;
+    }
+    
+    .button{
+        flex-direction: row;
+        column-gap: 5px;
+    }
+    .seo, .portfolio{
+        flex-direction: row;
+        height: 50vh;
+    }
+
+    .seo img, .portfolio img{
+        width: 50vw;
+    }
+    .seo div:nth-of-type(2), .portfolio div:nth-of-type(1){
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+    }
+
+    .portfolio div .button{
+        flex-direction: row;
+    }
+
+    .small{
+        height: 50vh;
+    }
+    .small div{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #gallery{
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 8rem;
+    }
+
+    #gallery img{
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1{
+        display: inline-block;
+        color: #666;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 52px; 
+    }
+    
+    nav .menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav .menu a{
+        font-size: 1.5rem;
+        padding: 0 5px;
+        color: #666;
+    }
+
+    .burger-wrapper{
+        display: none;
+    }
+
+    .change{
+        height: calc(100vh - 6rem);
+    }
+
+    .parallax{
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .options img{
+        width: 90vw;
+    }
+
+    #gallery img{
+        width: 25vw;
+    }
+}
+
+
