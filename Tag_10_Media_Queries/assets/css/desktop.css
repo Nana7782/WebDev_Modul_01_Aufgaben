@@ -1,0 +1,45 @@
+@media only screen and (min-width: 992px) {
+    h1{
+        display: inline-block;
+        color: #666;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 52px; 
+    }
+    
+    nav .menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav .menu a{
+        font-size: 1.5rem;
+        padding: 0 5px;
+        color: #666;
+    }
+
+    .burger-wrapper{
+        display: none;
+    }
+
+    .change{
+        height: calc(100vh - 6rem);
+    }
+    .button{
+        flex-direction: row;
+        column-gap: 5px;
+    }
+
+    .parallax{
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .options img{
+        width: 90vw;
+    }
+
+    #gallery img{
+        width: 25vw;
+    }
+}
