@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+.grid-parent{
+    display: grid;
+    height: 30vh;
+    
+    grid-template-columns: repeat(4, 24%);
+    grid-template-areas: 
+    "header header header header"
+    "main main side side"
+    "main main sidesec1 sidesec2";
+    gap: 5px;
+}
+
+.box1{
+    grid-area: header;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.box2{
+    grid-area: main;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.box3{
+    grid-area: side;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.box4{
+    grid-area: sidesec1;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.box5{
+    grid-area: sidesec2;
+    background-color: purple;
+    border-radius: 5px;
+}
