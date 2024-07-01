@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Karla";
+  src: url(../fonts/Karla-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Karla";
+  font-size: 62.5%;
+}
+body {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  padding-left: 5rem;
+}
+
+.grid_parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+img:hover {
+  transition: all 0.2s ease-in-out;
+  filter: brightness(90%);
+}
+
+.big {
+  grid-column: auto / span 3;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+
+h2,
+p {
+  font-size: 0.94rem;
+}
+
+h3 {
+  font-size: 0.94rem;
+  color: #848484;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+}
+
+footer h2 {
+  margin-bottom: 2rem;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+footer span {
+  font-weight: bold;
+}
+
+footer h4 {
+  font-size: 0.75rem;
+}
