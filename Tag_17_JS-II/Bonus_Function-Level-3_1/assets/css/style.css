@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+/* div {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-right: 10px;
+  transform: rotate(45deg);
+} */
+
+button {
+  /* display: inline-block; */
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-right: 10px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+#color1 {
+  background: linear-gradient(purple, purple 50%, green 50%, green);
+}
+
+#color2 {
+  background: linear-gradient(yellow, yellow 50%, darkblue 50%, darkblue);
+}
+
+#color3 {
+  background: linear-gradient(orange, orange 50%, black 50%, black);
+}
+
+#color4 {
+  background: linear-gradient(lightblue, lightblue 50%, darkblue 50%, darkblue);
+}
