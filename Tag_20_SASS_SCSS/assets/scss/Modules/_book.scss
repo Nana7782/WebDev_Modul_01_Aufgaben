@@ -1,0 +1,10 @@
+@use "../Base/mixins";
+
+.book {
+  @include mixins.flex-center;
+  flex-direction: column;
+  height: 25vh;
+  button {
+    @include mixins.button-hero;
+  }
+}

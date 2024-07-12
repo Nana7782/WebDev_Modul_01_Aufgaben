@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Conditionals-Level-2_2</title>
+  </head>
+  <body>
+    <section>
+      <form>
+        <div>
+          <label for="airQuality">Luftqualität:</label>
+          <p class="airQualityLevel"></p>
+        </div>
+        <input
+          type="range"
+          name="airQuality"
+          id="airQuality"
+          class="airQuality"
+          min="0"
+          max="150"
+          step="1"
+          onchange="checkAirQuality(); return false"
+        />
+        <h3 class="output-result"></h3>
+        <h3 class="output-result2"></h3>
+      </form>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,222 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header .logo {
+  margin: 5rem 0;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+header nav a {
+  text-decoration: none;
+  color: #957554;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../img/hero_image.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.hero h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 1rem;
+}
+.hero p {
+  color: #fff;
+  margin: 1.5rem 0;
+}
+.hero button {
+  padding: 1rem 5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #dfaa5b;
+}
+.hero button a {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.facilities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.facilities .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.facilities .icons img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1em;
+}
+.facilities .icons p {
+  color: #957554;
+  margin-top: 0.3em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+.rooms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.rooms-grid div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1em;
+  height: 25vh;
+  width: 35vh;
+}
+.rooms-grid div h3 {
+  color: #fff;
+  margin-bottom: 1em;
+}
+.rooms-grid div:nth-of-type(1) {
+  background: url(../img/standard_twin_room.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rooms-grid div:nth-of-type(2) {
+  background: url(../img/standard_room.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rooms-grid div:nth-of-type(3) {
+  background: url(../img/standard_view_room.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rooms-grid div:nth-of-type(4) {
+  background: url(../img/deluxe_room.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rooms-grid button {
+  background-color: #dfaa5b;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 25vh;
+}
+.book button {
+  padding: 1rem 5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #dfaa5b;
+}
+
+footer {
+  background-color: #111;
+  height: 40vh;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2em 2em 2em 5em;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.info img {
+  width: 154px;
+  height: 126px;
+  margin-bottom: 2em;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.news form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.news form label {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.news form input {
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 1em;
+}
+.news form input::placeholder {
+  padding-left: 1em;
+}
+.news form #submit {
+  background-color: #dfaa5b;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu";
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 {
+  color: #957554;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+/*# sourceMappingURL=style.css.map */

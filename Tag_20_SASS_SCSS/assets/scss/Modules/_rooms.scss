@@ -1,0 +1,46 @@
+@use "../Base/mixins";
+
+.rooms {
+  @include mixins.flex-center;
+  flex-direction: column;
+}
+.rooms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  div {
+    @include mixins.flex-center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 1em;
+    height: 25vh;
+    width: 35vh;
+    h3 {
+      color: #fff;
+      margin-bottom: 1em;
+    }
+  }
+  div:nth-of-type(1) {
+    background: url(../img/standard_twin_room.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div:nth-of-type(2) {
+    background: url(../img/standard_room.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div:nth-of-type(3) {
+    background: url(../img/standard_view_room.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div:nth-of-type(4) {
+    background: url(../img/deluxe_room.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  button {
+    @include mixins.button-rates;
+  }
+}

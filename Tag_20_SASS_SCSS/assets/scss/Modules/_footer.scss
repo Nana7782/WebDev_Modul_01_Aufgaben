@@ -1,0 +1,51 @@
+@use "../Base/mixins";
+
+footer {
+  background-color: #111;
+  height: 40vh;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2em 2em 2em 5em;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 154px;
+    height: 126px;
+    margin-bottom: 2em;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.news {
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    label {
+      font-size: 1.5em;
+      margin-bottom: 1em;
+    }
+    input {
+      height: 40px;
+      border-radius: 5px;
+      border-style: none;
+      margin-bottom: 1em;
+    }
+    input::placeholder {
+      padding-left: 1em;
+    }
+    #submit {
+      @include mixins.button-rates;
+      color: #fff;
+    }
+  }
+}

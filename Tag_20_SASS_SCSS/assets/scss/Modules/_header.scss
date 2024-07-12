@@ -1,0 +1,18 @@
+@use "../Base/mixins";
+
+header {
+  @include mixins.flex-center;
+  flex-direction: column;
+  .logo {
+    margin: 5rem 0;
+  }
+  nav {
+    @include mixins.flex-center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+    a {
+      text-decoration: none;
+      color: #957554;
+    }
+  }
+}
