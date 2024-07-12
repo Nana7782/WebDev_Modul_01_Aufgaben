@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer base {
+        @font-face {
+          font-family: "MrDafoe";
+          src: url(./assets/fonts/MrDafoe-Regular.ttf);
+        }
+      }
+    </style>
+    <title>Tailwiind-Experiment & Daisy UI</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar bg-base-100 fixed z-10">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl">nanaUI</a>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+            <input
+              type="text"
+              placeholder="Search"
+              class="input input-bordered w-24 md:w-auto"
+            />
+          </div>
+          <div class="dropdown dropdown-end">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost btn-circle avatar"
+            >
+              <div class="w-10 rounded-full">
+                <img
+                  alt="Tailwind CSS Navbar component"
+                  src="./assets/img/nana.jpg"
+                />
+              </div>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li>
+                <a class="justify-between">
+                  Profile
+                  <span class="badge">New</span>
+                </a>
+              </li>
+              <li><a>Settings</a></li>
+              <li><a>Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="px-16">
+      <div
+        class="flex flex-col items-center justify-center h-screen bg-[url('./assets/img/beach.jpg')] bg-fixed bg-center bg-no-repeat bg-cover text-white"
+      >
+        <h1 class="text-8xl mb-10 hover:font-['MrDafoe'] hover:text-5xl">
+          Das wird ein Parallax
+        </h1>
+        <h2 class="text-4xl text-orange-700">zumindest ist das der Plan</h2>
+        <p class="mt-20">
+          ob das alles so funktioniert, wie ich es gerne hätte, wird sich ja
+          dann zeigen!
+        </p>
+      </div>
+      <div>
+        <p class="py-10">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum omnis
+          quaerat doloribus nobis. Optio, provident. Molestiae ipsa dicta
+          consequatur, ad perferendis odit blanditiis eveniet tempora tempore
+          labore ullam fugiat doloremque voluptas corporis, repudiandae
+          accusamus corrupti quis quam ut ipsum illo voluptates fugit
+          exercitationem. Dolorum dolore sint veritatis reprehenderit numquam
+          iusto quas! Accusamus accusantium asperiores dolorum pariatur,
+          aspernatur aliquam dolorem ipsa quaerat voluptatibus delectus
+          explicabo voluptate natus similique ad quam suscipit voluptas quidem,
+          atque, a dignissimos obcaecati! Fuga, sint, doloremque corporis
+          exercitationem facere accusantium iusto distinctio cum ea at quas
+          nesciunt, molestias maxime aliquam similique odio explicabo numquam
+          perferendis. Odio, ipsa.
+        </p>
+      </div>
+      <div class="diff aspect-[16/9]">
+        <div class="diff-item-1">
+          <div
+            class="bg-primary text-primary-content grid place-content-center text-9xl font-black"
+          >
+            NANA
+          </div>
+        </div>
+        <div class="diff-item-2">
+          <div
+            class="bg-base-200 grid place-content-center text-9xl font-black"
+          >
+            NANA
+          </div>
+        </div>
+        <div class="diff-resizer"></div>
+      </div>
+      <section class="grid gap-4 grid-cols-3 mt-8">
+        <article>
+          <p class="underline">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            laudantium rem hic sit ab debitis, odio, veniam iure iusto harum sed
+            nihil odit quis minima fugiat qui illo ratione id enim beatae ea
+            facere in similique! Incidunt soluta officia, fugiat nisi nobis, at
+            mollitia aspernatur animi ullam eveniet doloremque recusandae.
+          </p>
+        </article>
+        <article>
+          <p class="font-['MrDafoe'] text-xl">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            laudantium rem hic sit ab debitis, odio, veniam iure iusto harum sed
+            nihil odit quis minima fugiat qui illo ratione id enim beatae ea
+            facere in similique! Incidunt soluta officia, fugiat nisi nobis, at
+            mollitia aspernatur animi ullam eveniet doloremque recusandae.
+          </p>
+        </article>
+        <article>
+          <p class="uppercase text-blue-400">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            laudantium rem hic sit ab debitis, odio, veniam iure iusto harum sed
+            nihil odit quis minima fugiat qui illo ratione id enim beatae ea
+            facere in similique! Incidunt soluta officia, fugiat nisi nobis, at
+            mollitia aspernatur animi ullam eveniet doloremque recusandae.
+          </p>
+        </article>
+        <article>
+          <p class="text-center text-teal-400">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            laudantium rem hic sit ab debitis, odio, veniam iure iusto harum sed
+            nihil odit quis minima fugiat qui illo ratione id enim beatae ea
+            facere in similique! Incidunt soluta officia, fugiat nisi nobis, at
+            mollitia aspernatur animi ullam eveniet doloremque recusandae.
+          </p>
+        </article>
+        <article>
+          <p class="text-right text-zinc-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            laudantium rem hic sit ab debitis, odio, veniam iure iusto harum sed
+            nihil odit quis minima fugiat qui illo ratione id enim beatae ea
+            facere in similique! Incidunt soluta officia, fugiat nisi nobis, at
+            mollitia aspernatur animi ullam evenietdoloremque recusandae.
+          </p>
+        </article>
+        <article>
+          <img src="https://unsplash.it/200" alt="" class="m-auto" />
+        </article>
+      </section>
+      <div class="mockup-code bg-primary text-primary-content my-20">
+        <pre><code>const nana = document.getElemtById("brain");
+            let grid = true;
+            let flex = false;
+            brainOutputToHtml.innerHtml = "Tailwind ist bei grid mega praktisch, bei flex
+            meiner Meinung nach 'geht so' und für parallax find ich definitiv css besser."
+        </code></pre>
+      </div>
+    </main>
+  </body>
+</html>
